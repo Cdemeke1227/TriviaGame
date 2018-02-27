@@ -8,24 +8,75 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Document</title>
+    <title>Trivia Game</title>
 </head>
 
 <body>
-<header class="navbar">
-    <h1>Trivia Game</h1>
-</header>
+    <header class="navbar">
+        <h1>Trivia Game</h1>
+    </header>
 
-<div class="container">
+    <div class="container startBack">
+        <div id="startPage">
+            <button type="button" class="btn btn-dark btn-lg" id="startButton">Start</button>
+        </div>
+    </div>
 
-<div class="row"></div>
+    <!-- ===== -->
+    <div class="container questionBack">
+        <div id="questionsPage">
+            <div class="row">
+                <h2 id="timePrompt">Time Remaining: </h2>
+                <h2 id="timerDisplay"></h2>
+            </div>
+            <div class="row questionSpace">
+                <h3 class="questionText"></h3>
+            </div>
+            <div>
+                <div class="row answer">
+                    <h3 id="answer_1"></h3>
+                </div>
+                <div class="row answer">
+                    <h3 id="answer_2"></h3>
+                </div>
+                <div class="row answer">
+                    <h3 id="answer_3"></h3>
+                </div>
+                <div class="row answer">
+                    <h3 id="answer_4"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div class="row"></div>
+    <!-- ===== -->
+    <div class="container answerBack">
+        <div id="answerPage">
+            <div class="row questionSpace">
+                <h3 class="questionText"></h3>
+            </div>
+            <div class="row">
+                <div class="row answer">
+                    <h3 id="isCorrect"></h3>
+                </div>
+                <div class=" answer">
+                    <h3 id="correctAnswer"></h3>
+                </div>
+                <div class="answerImage">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===== -->
+    <div class="container">
+        <div class="row" id="summaryPage">
+            <h2>Summary</h2>
+            <h3 id="numberCorrect"></h3>
+            <h3 id="numberIncorrect"></h3>
+            <h3 id="numberUnanswered"></h3>
+        </div>
+    </div>
 
-<div class="row"></div>
-
-<footer></footer>
-</div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

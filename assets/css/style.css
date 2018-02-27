@@ -1,0 +1,62 @@
+body {
+    background-image: url("../images/gun_metal.png");
+color: white;
+}
+
+#startBack {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 50%;
+}
+.questionBack {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: white;
+    color: black;
+    width: 50%;    
+}
+
+
+#timePrompt {
+    padding-right: 20px;
+}
+#timerDisplay {
+   height: 50px;
+}
+.questionSpace {
+    margin-top: 20px;
+    height: 75px;
+    width: 100%;
+}
+.answerBack {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: white;
+    color: black;
+    width: 50%;    
+}
+.answer {
+    height:25px;
+    width: 100%;
+}
+
+
+
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+}
