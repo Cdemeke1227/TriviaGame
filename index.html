@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Trivia Game</title>
+    <title>Movie Trivia Game</title>
 </head>
 
 <body>
@@ -33,17 +33,17 @@
                 <h3 class="questionText"></h3>
             </div>
             <div>
-                <div class="row answer">
-                    <h3 id="answer_1"></h3>
+                <div class="row answer" id="answer_1">
+                    <h3 id="answer1"></h3>
                 </div>
-                <div class="row answer">
-                    <h3 id="answer_2"></h3>
+                <div class="row answer" id="answer_2">
+                    <h3 id="answer2"></h3>
                 </div>
-                <div class="row answer">
-                    <h3 id="answer_3"></h3>
+                <div class="row answer" id="answer_3">
+                    <h3 id="answer3"></h3>
                 </div>
-                <div class="row answer">
-                    <h3 id="answer_4"></h3>
+                <div class="row answer" id="answer_4">
+                    <h3 id="answer4"></h3>
                 </div>
             </div>
         </div>
@@ -63,6 +63,7 @@
                     <h3 id="correctAnswer"></h3>
                 </div>
                 <div class="answerImage">
+                    <img src="" alt="">
                 </div>
             </div>
         </div>
@@ -74,6 +75,7 @@
             <h3 id="numberCorrect"></h3>
             <h3 id="numberIncorrect"></h3>
             <h3 id="numberUnanswered"></h3>
+            <div><button type="button" class="btn btn-dark btn-lg" id="restartButton">restart</button></div>
         </div>
     </div>
 
